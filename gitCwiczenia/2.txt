@@ -1,0 +1,2 @@
+"Drugi plik" 
+"tego nie bylo w 2.txt" 
