@@ -9,6 +9,8 @@ public class Calculator {
     double y;
     double result;
     int operationType;
+    String nazwa;
+
     public Calculator (){};
 
     public Calculator (double x, double y){

@@ -52,16 +52,14 @@ public class Main {
             if (wynik.operationType == 1) {System.out.println("Wynik dodawania:" + wynik.add());}
             else if (wynik.operationType == 2){System.out.println("Wynik odejmowania:" + wynik.substruct() );}
             else if (wynik.operationType == 3) {System.out.println("Wynik dzielnia:" + wynik.divide() );}
-            else if (wynik.operationType == 4) { System.out.println("Wynik mnożenia:" + wynik.multiply() );}
-            else ;;
+            else  if (wynik.operationType == 4) { System.out.println("Wynik mnożenia:" + wynik.multiply() );};
+
 
         /*System.out.println("Wartość pierwsza to: " + wynik.x);
         System.out.println("Wartość druga to: " + wynik.y);*/
 
 
-
-
-
+//
 
     }
 }
