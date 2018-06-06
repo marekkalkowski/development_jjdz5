@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93f33cc2-62e2-482e-b221-069571025ada" name="Default" comment="" />
+    <list default="true" id="5ba3177b-b619-4c81-91fe-0856c68219c2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/jjdz5_cw1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jjdz5_cw1/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +17,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="459">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,11 +26,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Calculator.java">
+      <file leaf-file-name="ChangeToChar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ChangeToChar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+              <folding>
+                <element signature="e#87#88#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,6 +56,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
@@ -52,7 +69,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/ChangeToChar.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -66,7 +83,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="292" />
     <option name="y" value="24" />
     <option name="width" value="1400" />
@@ -81,12 +98,23 @@
         <subPane>
           <expand>
             <path>
-              <item name="jjdz5_cw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jjdz5_cw1_4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="developmnet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jjdz5_cw1_4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="developmnet" type="462c0819:PsiDirectoryNode" />
               <item name="jjdz5_cw1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jjdz5_cw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jjdz5_cw1_4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="developmnet" type="462c0819:PsiDirectoryNode" />
               <item name="jjdz5_cw1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jjdz5_cw1_4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="developmnet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -94,8 +122,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,7 +147,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="jjdz5_cw1" />
+      <module name="developmnet" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -174,17 +202,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="93f33cc2-62e2-482e-b221-069571025ada" name="Default" comment="" />
-      <created>1528114115657</created>
+      <changelist id="5ba3177b-b619-4c81-91fe-0856c68219c2" name="Default" comment="" />
+      <created>1528286703410</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1528114115657</updated>
-      <workItem from="1528114117281" duration="6238000" />
+      <updated>1528286703410</updated>
+      <workItem from="1528286706959" duration="6271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6251000" />
+    <option name="totallyTimeSpent" value="6271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -192,7 +220,7 @@
       <window_info anchor="right" id="Key Promoter X" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32963374" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -200,19 +228,19 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32963374" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32963374" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955604" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -226,61 +254,40 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="5" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Podklasa.java">
+    <entry file="file://$PROJECT_DIR$/jjdz5_cw1/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="204">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/ChangeToChar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="238">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
