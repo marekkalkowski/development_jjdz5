@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Podaj figurę - możliwy wybór to as, król, dama, walet:");
         String figura = scan.next();
         int mistakes = 1;
-        while (!(figura.equals("as")) && !figura.equals("dama") && !figura.equals("król") && !figura.equals("walet")) {
+        while (!(figura.toLowerCase().equals("as")) && !figura.toLowerCase().equals("dama") && !figura.toLowerCase().equals("król") && !figura.toLowerCase().equals("walet")) {
 
             if (mistakes == 2) {
                 System.out.println("Jeszce raz się pomylisz i instaluję wirusa");
@@ -36,7 +36,7 @@ public class Main {
        System.out.println("Podaj kolor - możliwy wybór to: pik, kier, trefl, karo:");
         String kolor = scan.next();
         mistakes = 1;
-        while (!(kolor.equals("pik")) && !kolor.equals("karo") && !kolor.equals("trefl") && !kolor.equals("kier")){
+        while (!(kolor.toLowerCase().equals("pik")) && !kolor.toLowerCase().equals("karo") && !kolor.toLowerCase().equals("trefl") && !kolor.toLowerCase().equals("kier")){
 
             if (mistakes == 2) {
                 System.out.println("Jeszce raz się pomylisz i instaluję wirusa");
@@ -60,29 +60,29 @@ public class Main {
 
         }
 
-        if (figura.equals("as")){
+        if (figura.toLowerCase().equals("as")){
             karta.setFigura(Ranks.ACE);
         }
-        else if (figura.equals("dama")){
+        else if (figura.toLowerCase().equals("dama")){
             karta.setFigura(Ranks.QUEEN);
         }
-            else if (figura.equals("król")){
+            else if (figura.toLowerCase().equals("król")){
                 karta.setFigura(Ranks.KING);
             }
-            else if (figura.equals("walet")){
+            else if (figura.toLowerCase().equals("walet")){
                 karta.setFigura(Ranks.JACK);
             }
 
-        if (kolor.equals("pik")){
+        if (kolor.toLowerCase().equals("pik")){
             karta.setColor(Suits.SPADES);
         }
-        else if (kolor.equals("karo")){
+        else if (kolor.toLowerCase().equals("karo")){
             karta.setColor(Suits.DIAMONDS);
         }
-        else if (kolor.equals("trefl")){
+        else if (kolor.toLowerCase().equals("trefl")){
             karta.setColor(Suits.SPADES);
         }
-        else if (kolor.equals("kier")){
+        else if (kolor.toLowerCase().equals("kier")){
             karta.setColor(Suits.HEARTS);
         }
         System.out.println();
