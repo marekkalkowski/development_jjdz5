@@ -11,22 +11,6 @@ public class Names {
 
 
 
-//    public String[] getName() {
-//        return name;
-//    }
-//
-//    public void setName(String[] name) {
-//        this.name = name;
-//    }
-//
-//    public int getNumberOfNames() {
-//        return numberOfNames;
-//    }
-//
-//    public void setNumberOfNames(int numberOfNames) {
-//        this.numberOfNames = numberOfNames;
-//    }
-
     /**
      *  <b></b>metoda zwraca nadłuższe imię z listy imion</b>
      *
@@ -69,6 +53,7 @@ public class Names {
      * @param list  - tablica imino
      * @return - SET z powtarzającymi się imionami
      */
+
     public Set repeatName (List<String> list) {
 
         Set<String> repeatArray = new HashSet<>();
@@ -87,26 +72,7 @@ public class Names {
             }
         z++;
         }
-//            }
 
-  //      String firstName = list.get(i);
-//        for (int i = 0; i < list.size(); i++) {
-//            String firstName = list.get(i);
-//
-//            for (String name:list){
-//            }
-//        }
-////            //for (int y = i+1; y < list.size(); y++) {
-////                if (repeatArray.contains(firstName)){break;}
-////
-////                else if (firstName.equals(list.get(y))) {
-////                    repeatArray.add(list.get(y));
-////                    break;
-////                }
-////
-////            }
-////
-////        }
         return repeatArray;
     }
 
@@ -154,7 +120,7 @@ public class Names {
             if (hasSame == true){break;}
 
         }
-        //System.out.println(as + " - " + hasSame);
+
         return hasSame;
     }
 }

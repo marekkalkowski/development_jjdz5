@@ -13,9 +13,6 @@ public class Main {
         System.out.println("Podaj ilość imion:");
         int number = (scan.nextInt());
 
-       //String [] arrayOfNames = new String [name.getNumberOfNames()];
-
-
 
         for (int i = 0; i < number; i++ ) {
             System.out.println("Podaj imię (żeby przerwać wpisywanie napisz \"esc\": ");
@@ -32,9 +29,6 @@ public class Main {
                 name.listOfNames.add(znak);;
             }
         }
-
-
-
 
         System.out.println("Wpisane przez Ciebie iminiona to: " + name.listOfNames);
 
