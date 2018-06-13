@@ -5,38 +5,39 @@ public class Names {
      * tablica imion "name
      * ilość imion w tablicy
      */
-    private String [] name;
+    //private String [] name;
     private Integer numberOfNames;
+    List <String> listOfNames = new ArrayList<>() ;
 
 
 
-    public String[] getName() {
-        return name;
-    }
-
-    public void setName(String[] name) {
-        this.name = name;
-    }
-
-    public int getNumberOfNames() {
-        return numberOfNames;
-    }
-
-    public void setNumberOfNames(int numberOfNames) {
-        this.numberOfNames = numberOfNames;
-    }
+//    public String[] getName() {
+//        return name;
+//    }
+//
+//    public void setName(String[] name) {
+//        this.name = name;
+//    }
+//
+//    public int getNumberOfNames() {
+//        return numberOfNames;
+//    }
+//
+//    public void setNumberOfNames(int numberOfNames) {
+//        this.numberOfNames = numberOfNames;
+//    }
 
     /**
-     *  <b></b>metoda zwraca nadłuższe imię z tablicy imion</b>
+     *  <b></b>metoda zwraca nadłuższe imię z listy imion</b>
      *
-     * @param array - tablica imion
+     * @param list - tablica imion
      * @return najdłuższe imię
      */
 
-    public String longestName (String [] array){
+    public String longestName (List<String> list){
         int longestValue = 0;
         String longestName = null;
-        for (String str : array){
+        for (String str : list){
             if (str.length() > longestValue){
                 longestName = str;
                 longestValue = str.length();
@@ -47,14 +48,14 @@ public class Names {
 
     /**
      * metoda zwraca najkrótsze imię
-     * @param array - tablica imion
+     * @param list - lista imion
      * @return najkrótsze imię
      */
 
-    public String shortestName (String [] array){
-        int shortestValue = array[0].length();
-        String shortestName = array[0];
-        for (String str : array){
+    public String shortestName (List<String> list){
+        int shortestValue = list.get(0).length();
+        String shortestName = list.get(0);
+        for (String str : list){
             if (str.length() < shortestValue){
                 shortestName = str;
                 shortestValue = str.length();
@@ -65,27 +66,47 @@ public class Names {
 
     /**
      * metoda napełnia SET powtarzającymi się imionami
-     * @param array  - tablica imino
+     * @param list  - tablica imino
      * @return - SET z powtarzającymi się imionami
      */
-    public Set repeatName (String [] array) {
+    public Set repeatName (List<String> list) {
 
         Set<String> repeatArray = new HashSet<>();
+        int z = 0;
+        for (String name:list){
 
+            for ( int i = z +1 ; i < list.size();i++) {
+                String firstName = list.get(i);
 
-        for (int i = 0; i < array.length; i++) {
-            String firstName = array[i];
-            for (int y = i+1; y < array.length; y++) {
-                if (repeatArray.contains(firstName)){break;}
-
-                else if (firstName.equals(array[y])) {
-                    repeatArray.add(array[y]);
+                if (repeatArray.contains(name)) {
                     break;
+                } else if (name.equals(firstName)) {
+                    repeatArray.add(name);
+
                 }
-
             }
-
+        z++;
         }
+//            }
+
+  //      String firstName = list.get(i);
+//        for (int i = 0; i < list.size(); i++) {
+//            String firstName = list.get(i);
+//
+//            for (String name:list){
+//            }
+//        }
+////            //for (int y = i+1; y < list.size(); y++) {
+////                if (repeatArray.contains(firstName)){break;}
+////
+////                else if (firstName.equals(list.get(y))) {
+////                    repeatArray.add(list.get(y));
+////                    break;
+////                }
+////
+////            }
+////
+////        }
         return repeatArray;
     }
 
@@ -100,7 +121,7 @@ public class Names {
         Map<Object, Integer> mapNames = new HashMap<>();
         for (Object obj : repeatName){
             int y =0;
-            for (String str : name){
+            for (String str : listOfNames){
                 if (obj.equals(str)){
                     y++;
                     mapNames.put(obj,y);
