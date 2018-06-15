@@ -40,7 +40,7 @@ public class Main {
 
         System.out.print("Imiona z powtarzającymi się literami:\n ");
         for (String str : name.listOfNames){
-            System.out.println(str + " - " + name.isSameLetter(str));
+            System.out.println(str + " - " + name.isSameLetter2(str));
         }
 
        // System.out.println(name.repeatName(name.listOfNames));

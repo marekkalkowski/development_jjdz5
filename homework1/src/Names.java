@@ -106,20 +106,40 @@ public class Names {
      * @param name
      * @return wartość true - jezeli są albo wartoiść false - jezeli nie ma
      */
-    public boolean isSameLetter (String name) {
+//    public boolean isSameLetter (String name) {
+//        boolean hasSame = false;
+//
+//        for (int i = 0; i < name.length()-1;i++){
+//            char firstChar = name.toLowerCase().charAt(i);
+//            for (int z = i+1; z < name.length(); z++){
+//                if (firstChar == name.toLowerCase().charAt(z)){
+//                    hasSame = true;
+//                    break;
+//                }
+//            }
+//
+//            if (hasSame == true){break;}
+//
+//        }
+//
+//        return hasSame;
+//    }
+
+    /**
+     * to jest po zmianie z podwójnej pętli
+     * @param name
+     * @return
+     */
+
+    public boolean isSameLetter2 (String name){
         boolean hasSame = false;
-        for (int i = 0; i < name.length()-1;i++){
-            char firstChar = name.toLowerCase().charAt(i);
-            for (int z = i+1; z < name.length(); z++){
-                if (firstChar == name.toLowerCase().charAt(z)){
-                    hasSame = true;
-                    break;
-                }
-            }
+        Set <Character> charSet = new HashSet<>();
+        for (char c : name.toCharArray()){
+            charSet.add(c);
+        };
+        if (name.length()==charSet.size()){hasSame = false;}
+        else {hasSame = true;}
 
-            if (hasSame == true){break;}
-
-        }
 
         return hasSame;
     }
